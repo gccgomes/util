@@ -3,4 +3,4 @@ Util Scritps
 
 test-hosts.sh	Test if an host is alive or aceppting ICMP connections
 
-trocagw.sh    Change the default gateway to an backup connection, change de default for a primary "GW1" when then came on-line
+trocagw.sh Toggles the default gateway of a network, to a second configured gateway. And return to the main gateway when it is online
