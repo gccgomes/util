@@ -1,5 +1,5 @@
-# util
-Util Scritps
+# Util
+# Poorman scripts
 
 test-hosts.sh	Test if an host is alive or aceppting ICMP connections
 
