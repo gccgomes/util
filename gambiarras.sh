@@ -8,3 +8,6 @@ socat TCP-LISTEN:443,fork TCP:192.168.0.1:443
 
 # du command for hidden files
 du -hs .[^.]*
+
+# findmax show the most used hidden and normal files, directories
+alias findmax='find -maxdepth 1 -mindepth 1 -exec du -hs {} + | sort -h'
