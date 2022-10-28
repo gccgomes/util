@@ -1,0 +1,16 @@
+[Unit]
+#Simple systemd script to run java applications
+Description=SQL Anywhere Network Server
+After=syslog.target network.target
+[Service]
+SuccessExitStatus=143
+
+Type=forking
+User=sap
+Group=sap
+
+ExecStart=/opt/dominio/wrapperDBSrv16.sh
+ExecStop=/usr/bin/killall -w -s 15 dbsrv16
+
+[Install]
+WantedBy=multi-user.target
