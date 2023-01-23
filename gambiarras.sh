@@ -9,5 +9,9 @@ socat TCP-LISTEN:443,fork TCP:192.168.0.1:443
 # du command for hidden files
 du -hs .[^.]*
 
-# findmax show the most used hidden and normal files, directories
+# findmax show the most used hidden and normal in size files, directories 
 alias findmax='find -maxdepth 1 -mindepth 1 -exec du -hs {} + | sort -h'
+
+ # find directories and list, formating output 4 dir by lines
+ #not tested with directories with space and special chars on their names
+ find -maxdepth 1 -mindepth 1 -type d | sed 's/\.\///g'|  paste -d ' ' - - - -
