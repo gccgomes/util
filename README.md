@@ -7,6 +7,6 @@ trocagw.sh Toggles the default gateway of a network, to a second configured gate
 
 gambiarras.sh example of how to use some commands, or common commands with some obscure feature
 
-
+sqlanywhere.service sample of systemd script to initialize SQL Anywhere.
 
 vscode-fi-auth.sh Fix vscode authentication problem on opensuse 15.4 with kde5
