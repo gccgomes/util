@@ -16,6 +16,5 @@ alias findmax='find -maxdepth 1 -mindepth 1 -exec du -hs {} + | sort -h'
  #not tested with directories with space and special chars on their names
  find -maxdepth 1 -mindepth 1 -type d | sed 's/\.\///g'|  paste -d ' ' - - - -
 
-# search pattern between to lines with awk
-#
+# showing off alle between two patterns with awk
 awk '/^PADRAO1/,/PADRAO2/' file.txt
