@@ -15,3 +15,7 @@ alias findmax='find -maxdepth 1 -mindepth 1 -exec du -hs {} + | sort -h'
  # find directories and list, formating output 4 dir by lines
  #not tested with directories with space and special chars on their names
  find -maxdepth 1 -mindepth 1 -type d | sed 's/\.\///g'|  paste -d ' ' - - - -
+
+# search pattern between to lines with awk
+#
+awk '/^PADRAO1/,/PADRAO2/' file.txt
