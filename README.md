@@ -10,3 +10,5 @@ gambiarras.sh example of how to use some commands, or common commands with some 
 sqlanywhere.service sample of systemd script to initialize SQL Anywhere.
 
 vscode-fi-auth.sh Fix vscode authentication problem on opensuse 15.4 with kde5
+
+unify3colunms.bas macro to unify 3 sheets in libreoffice calc
