@@ -13,4 +13,4 @@ vscode-fi-auth.sh Fix vscode authentication problem on opensuse 15.4 with kde5
 
 unify3colunms.bas macro to unify 3 sheets in libreoffice calc
 
-exporta-cert-configxml.py exports all certificates found on pfsens config file.
+exporta-cert-configxml.py exports all certificates found on router xml config file.
